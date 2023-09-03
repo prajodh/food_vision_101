@@ -18,3 +18,12 @@ Food Vision 101 aims to leverage the power of deep learning and transfer learnin
 - TensorFlow Data Loading Pipelines: To ensure smooth and efficient data handling, we make use of TensorFlow's data loading pipelines. This optimizes the flow of data from the dataset library to the model, enhancing overall performance.
 
 - Mixed Precision Training: For faster training times and reduced memory consumption, we implement mixed precision training. This technique exploits the potential of modern GPUs, making the training process faster and more efficient.
+
+## Technologies Used
+- TensorFlow: The core deep learning framework that powers our model's development and training.
+
+- TensorFlow Datasets: We harness the Food 101 dataset from TensorFlow Datasets, a treasure trove of culinary images.
+
+- EfficientNet B0: The EfficientNet B0 architecture, known for its effectiveness in image classification tasks.
+
+- Mixed Precision Training: A technique that combines 16-bit and 32-bit precision to optimize training speed and memory usage.
