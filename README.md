@@ -1,6 +1,6 @@
 
-Food Vision 101
-Food Vision 101 Logo
+##Food Vision 101
+
 
 Food Vision 101 is a delightful project that emerged from the online course "TensorFlow Developer Certificate in 2023: Zero to Mastery" on Udemy. It's all about the fusion of cutting-edge technologies and the love for good food. In this project, we delve into the realm of computer vision to build a model that can identify and classify various types of delicious dishes using the Food 101 dataset from TensorFlow.
 
