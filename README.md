@@ -1,17 +1,23 @@
-# food_vision_101
-<ul>
-<li>project to help classify 101 different foods based on their image</li>
-<li>the data was a part of tensorflow_datasets library</li>
-<li>after performing some basic data analysis and understanding the data</li>
-<li>we preprocess it so that all the images are of the same size
-and we also use the tf.data module to pipeline the loading of data so that it is done
- efficiently</li>
-<li>then we set up mixed presion training</li>
-<li>it is a technique were the type of the input data which is usually float32
-	dips to float16 when being used by the model to find errors and update weights
-	so that it can run the epochs at almost 2X the speed</li>
-<li>we have also used the efficientnetB0 transfered learning model to reach higher accuracies
-as from previous experiences i learnt that building a model layer by layer from scratch
-usually isnt that good wen predicting and require more layers of neurons and higher no
-of epochs to reach a certain level of accuracy which was a waste of resorces</li>
-</ul>
+
+Food Vision 101
+Food Vision 101 Logo
+
+Food Vision 101 is a delightful project that emerged from the online course "TensorFlow Developer Certificate in 2023: Zero to Mastery" on Udemy. It's all about the fusion of cutting-edge technologies and the love for good food. In this project, we delve into the realm of computer vision to build a model that can identify and classify various types of delicious dishes using the Food 101 dataset from TensorFlow.
+
+Table of Contents
+Introduction
+Project Highlights
+Technologies Used
+Getting Started
+Usage
+Contributing
+License
+Introduction
+Food Vision 101 aims to leverage the power of deep learning and transfer learning to create an intelligent system capable of recognizing and categorizing different cuisines. The model at the core of this project is built upon the EfficientNet B0 architecture, known for its efficiency and accuracy in image classification tasks.
+
+Project Highlights
+EfficientNet B0: We employ the state-of-the-art EfficientNet B0 architecture as the backbone of our model. This allows us to achieve remarkable accuracy in recognizing food items.
+
+TensorFlow Data Loading Pipelines: To ensure smooth and efficient data handling, we make use of TensorFlow's data loading pipelines. This optimizes the flow of data from the dataset library to the model, enhancing overall performance.
+
+Mixed Precision Training: For faster training times and reduced memory consumption, we implement mixed precision training. This technique exploits the potential of modern GPUs, making the training process faster and more efficient.
